@@ -3,6 +3,25 @@ body {
   
 }
 
+.blockback {
+    text-align: center;
+    background: #FF0000;
+    border: #FF0000 solid 0;
+    margin: 0;
+}
+
+.blockback:before {
+    content: '';
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+
+    /* For visualization 
+    background: #808080; width: 5px;
+    */
+}
+
 .block {
   text-align: center;
   background: #FF0000;
